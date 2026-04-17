@@ -18,7 +18,7 @@ int main() {
     int aprobados = 0;
     int reprobados = 0;
 
-    // 1. Solicitar cantidad de estudiantes con validación
+    //  Solicitar cantidad de estudiantes con validación
     do {
         cout << "Ingrese la cantidad de estudiantes (máximo " << MAX_ESTUDIANTES << "): ";
         cin >> numEstudientes;
@@ -27,7 +27,7 @@ int main() {
         }
     } while (numEstudientes < 1 || numEstudientes > MAX_ESTUDIANTES);
 
-    // 2. Captura de datos y procesamiento
+    // Captura de datos y procesamiento
     for (int i = 0; i < numEstudientes; i++) {
         double sumaNotasEstudiante = 0;
         cout << "\n--- Estudiante " << i + 1 << " ---\n";
@@ -63,7 +63,7 @@ int main() {
         }
     }
 
-    // 3. Mostrar resultados
+    // Mostrar resultados
     cout << "\n========================================";
     cout << "\n       REPORTE DE CALIFICACIONES";
     cout << "\n========================================\n";
